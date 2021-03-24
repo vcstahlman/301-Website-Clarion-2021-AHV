@@ -1,0 +1,234 @@
+/* This is for the style/look of the whole site*/
+
+header,
+nav,
+section,
+article,
+aside,
+footer {
+    display: block;
+}
+
+
+/* Sets the whole pages background color*/
+
+
+/* Sets the background to be an image/ colors if it fails, adds padding, and adds an text align left*/
+
+.pagehead {
+    background-color: lightblue;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    background-image: url("../images/Span.jpg");
+    background-size: cover;
+}
+
+
+/* Sets the color of the text in the header with the id titlehead, and
+	sets a border, background color, and padding around it.*/
+
+#titlehead {
+    color: aliceblue;
+    text-decoration: none;
+    background-color: #50bdbd;
+    width: 250px;
+    border: grey 5px solid;
+    padding: 5px;
+    font-family: sans-serif;
+}
+
+#center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*this set of commands sets the sizes of various pictures used in the website*/
+
+.imgsizing {
+    width: 100%;
+}
+
+#imghome {
+    width: 40%
+}
+
+#imglink {
+    width: 30%
+}
+
+.imgsize1 {
+    width: 95%;
+}
+
+.imgsize2 {
+    width: 60%;
+}
+
+.imgsize3 {
+    width: 40%;
+}
+
+.infoCard {
+    padding: 3px;
+}
+
+
+/* Sets the background color, and the sizing of the border/padding. */
+
+.navhead {
+    background-color: #777777;
+    padding: 5px 5px 10px 5px;
+    border: solid white 2px;
+}
+
+nav {
+    background-color: #90b3b3;
+}
+
+
+/* Changes the font, and color of links that are in the nav*/
+
+.navhead a {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.navhead a:hover {
+    background-color: #133131
+}
+
+.login {
+    text-align: right;
+}
+
+
+/* Floats the section left, and sets the size and color of the background of it.*/
+
+section {
+    padding: 5px;
+    margin: 0px 20px;
+    width: 78%;
+    background-color: #eeeeee;
+    padding: 5px;
+}
+
+.mainSection {
+    padding: 5px;
+    margin: 5px;
+    background-color: #eeeeee;
+}
+
+
+/* This Floats the aside right for the flow of the page, and changes the colors,
+spacing/sizing of the element, and fonts*/
+
+aside {
+    width: 20%;
+    border: 5px #444444 solid;
+    background-color: #777777;
+    color: ghostwhite;
+    padding: 5px;
+    margin: 10px;
+    font-family: sans-serif;
+}
+
+
+/*This makes the Article float left for the page's use of float overall to work. */
+
+article {
+    float: left;
+    padding: 5px;
+}
+
+span h2 {
+    font-family: 'Courier New', Courier, monospace
+}
+
+.art {
+    background-color: #c0c0c0;
+    border: grey 5px solid;
+    padding: 5px;
+    font-family: sans-serif;
+    left: auto;
+}
+
+
+/* In the footer I had the float cleared, set a background color,
+and sized the margin etc., and changed the font color */
+
+footer {
+    clear: both;
+    background-color: #7e9999;
+    border: solid white 2px;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*these all are how the dropdown works. May be botched compared to usual, but I think it works*/
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    padding: 6px;
+    z-index: 1;
+    border: #444444 solid 3px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #112222
+}
+
+.dropdown-content a {
+    padding: 5px;
+    background-color: #c0c0c0;
+    display: block;
+}
+
+
+/*these are for the table on the support.html page*/
+
+table,
+th,
+td {
+    border: solid #112222 2px;
+    padding: 2px;
+    margin: 1px;
+}
+
+
+/*this is a little drop down thing that i have for my jquery*/
+
+#panel,
+#flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #5d9768;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
