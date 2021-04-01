@@ -11,7 +11,7 @@ function displayheader() {
     try {
         document.getElementById("headerid").innerHTML =
             '<div class="fluid container" id="pagetop"> ' +
-            '<header class= "pagehead"> <h1 id ="titlehead" > our name </h1> </header>' +
+            '<header class= "pagehead"> <h1 id ="titlehead" > H.A.V. Computer Supply </h1> </header>' +
 
             '<nav class="navbar navbar-expand-md navbar-dark"><!--sets up a nav and uses some bootstrap-->' +
             '<a class="navbar-brand   d-lg-block" href="../view/index.html">Home</a>' +
@@ -31,7 +31,7 @@ function displayheader() {
             '<!--dropdown with likely additions for the site-->' +
             '<li class="nav-item dropdown">' +
             '<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">' +
-            'Projects' +
+            'Products/Services' +
             '</a>' +
             '<div class="dropdown-menu" aria-labelledby="navbarDropdown">' +
             '<p class="dropdown-item "> These are under construction. </p>' +

@@ -32,8 +32,8 @@ footer {
     color: aliceblue;
     text-decoration: none;
     background-color: #50bdbd;
-    width: 250px;
-    border: grey 5px solid;
+    width: 400px;
+    border: #7e9999 5px solid;
     padding: 5px;
     font-family: sans-serif;
 }
@@ -79,13 +79,13 @@ footer {
 /* Sets the background color, and the sizing of the border/padding. */
 
 .navhead {
-    background-color: #777777;
+    background-color: #7e9999;
     padding: 5px 5px 10px 5px;
     border: solid white 2px;
 }
 
 nav {
-    background-color: #90b3b3;
+    background-color: #7e9999;
 }
 
 
@@ -111,14 +111,12 @@ nav {
 section {
     padding: 5px;
     margin: 0px 20px;
-    width: 78%;
     background-color: #eeeeee;
-    padding: 5px;
 }
 
 .mainSection {
-    padding: 5px;
-    margin: 5px;
+    padding: 10px;
+    margin: 10px;
     background-color: #eeeeee;
 }
 
@@ -128,8 +126,8 @@ spacing/sizing of the element, and fonts*/
 
 aside {
     width: 20%;
-    border: 5px #444444 solid;
-    background-color: #777777;
+    border: 5px #7e9999;
+    background-color: #50bdbd;
     color: ghostwhite;
     padding: 5px;
     margin: 10px;
@@ -231,4 +229,9 @@ td {
 #panel {
     padding: 50px;
     display: none;
+}
+
+.ProfPic {
+    padding: 5px;
+    margin: 5px;
 }
