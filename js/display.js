@@ -36,17 +36,17 @@ function displayheader() {
             '<div class="dropdown-menu" aria-labelledby="navbarDropdown">' +
             '<p class="dropdown-item "> These are under construction. </p>' +
             '<div class="dropdown-divider"></div>' +
-            '<a class="dropdown-item" href="">Products</a>' +
-            '<a class="dropdown-item" href="">signin</a>' +
+            '<a class="dropdown-item" href= "../view/newsletter.html">Newsletter</a>' +
+            '<a class="dropdown-item" href="../view/products.html">Products</a>' +
+            '<a class="dropdown-item" href="../view/services.html">Services Sign-in</a>' +
             '</div>' +
             '</li>' +
-
-            '<!--dropdown for the admin stuff including grading-->' +
 
 
             '</ul>' +
             '</div>' +
-            '</nav>'
+            '</nav>' +
+            '</div>';
     }
     //       
     catch (load) {

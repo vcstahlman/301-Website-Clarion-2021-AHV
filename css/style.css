@@ -235,3 +235,8 @@ td {
     padding: 5px;
     margin: 5px;
 }
+
+#request{
+    width: 90%;
+    height: auto;
+}

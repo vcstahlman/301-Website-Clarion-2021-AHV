@@ -9,13 +9,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Products</title>
+    <title>Newsletter</title>
     <meta name="description" content="A simple file to start an HTML5 page">
     <meta name="author" content="Victor Stahlman">
     <script type="text/javascript" src="../js/display.js"></script>
-    <script type="text/javascript" src="../js/projectsup.js"></script>
 
     <link rel="stylesheet" href="../css/style.css?v=1.0">
+
     <!-- Mobile-friendly viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--these are some cdn's for bootstrap, jQuery, etc-->
@@ -32,44 +32,25 @@
 <body class="mainBody">
 
     <div id="headerid"></div>
-    
+
 
     <section class="fluid container centered">
-        
+        <div class="row">
+            <div class="col-12 col-sm-10 col-md-4">
                 <h4 class="centered">Are you interested in getting special updates.?</h4>
                 <p>Feel free to sign up for the newsletter which is emailed out when we have a promotion.
 
                 </p>
-                <h3>Products</h3>
+                <h3>Sign up</h3>
 
-                <table id="suptbl">
-                    <tbody>
-                        <tr>
-                            <th> Add Itemtype to Cart </th>
-                            <th> Picture</th>
-                            <th> Product </th>
-                            <th> Description </th>
-                            <th> Price</th>
-                            <th> Amount</th>
+                
+                
+                <input type="email" id="email">
+                <button> Submit email and send newsletter</button>
+                <!-- display a newsletter.? -->
 
-                        </tr>
-
-                        <tr>
-                            <td><input type="checkbox" id="chb1"></td>
-                            <td> <img alt="image of product"></td>
-                            <td>Midlevel webcam</td>
-                            <td>This is a mid level webcam that is fairly priced and has a decent quality for said price.</td>
-                            <td>30.00</td>
-                            <td><input type=" number " min="0 " id="num1 " value="0"> </td>
-                        </tr>
-
-                    </tbody>
-                </table>
-
-                <br>
-                <button onclick="cartTotal()">  Total the cart</button>
-                <p id="cart"></p>
-
+            </div>
+        </div>
     </section>
 
 
