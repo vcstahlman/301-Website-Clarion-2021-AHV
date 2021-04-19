@@ -20,7 +20,7 @@ footer {
     color: white;
     text-align: left;
     padding: 10px;
-    background-image: url("../images/Span.jpg");
+    /* background-image: url("../images/Span.jpg"); */
     background-size: cover;
 }
 
@@ -73,7 +73,10 @@ footer {
 
 .infoCard {
     padding: 3px;
+    height: 200px;
 }
+
+
 
 
 /* Sets the background color, and the sizing of the border/padding. */
