@@ -1,7 +1,17 @@
-[
-    {
-    "username": "Victor",
-    "password": "168",
-    "request": ""
-    }
-]
+{"users":
+    [ 
+        {
+        "username": "Victor",
+        "password": "168",
+        "request": ""
+        },
+        {"username": "Holly",
+        "password": "bee",
+        "request": ""
+        },
+        {"username": "Anna",
+        "password": "snail",
+        "request": ""
+        }
+    ]
+}

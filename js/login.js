@@ -6,26 +6,42 @@
 
 
 
-function check() {
+
+function checkUser() {
+
 
     //gets the username ans password out of the form and puts them into variables
-    var username = document.getElementById("user").value;
-    var password = document.getElementById("pass").value;
+    var user = document.getElementById("user").value;
+    var pass = document.getElementById("pass").value;
+    var req = document.getElementById("request").value;
 
     //sets them to session storage in case I wanted to use them other places
-    sessionStorage.setItem("Username", username);
-    sessionStorage.setItem("Password", password);
+    sessionStorage.setItem("Username", user);
+    sessionStorage.setItem("Password", pass);
+    sessionStorage.setItem("Request", req);
 
-    //checks the password and username and if both are correct run lognew which welcomes them to the page
-    //if they do not match it tells you that there is an issue
-    if (password === "student") {
-        if (username === "student") {
+    
 
-            lognew();
+    if(req === "")
+    { //we need to load the old form 
+        if (localStorage.getItem(user) != null) {  //the user exists it will continue
+            
+            if (localStorage.getItem(user) === pass) {
+                req = localStorage.getItem(user+pass);
+                document.getElementById("request").value = req;
+            }
+            else alert("password incorrect. Please try again.");
         }
+        
+        
     }
+        
     else {
-        alert("You just put in the wrong info, please try again.");
+        //making new information
+        localStorage.setItem(user, pass);
+        localStorage.setItem(user+pass, req);
+        alert("Request: {"+ req + "} was added to your account " + user + "\nThank you for your business, and we will get to you as soon as possible.");
     }
+
 
 }

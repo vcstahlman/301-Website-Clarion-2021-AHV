@@ -27,17 +27,19 @@ function displayheader() {
             '<li class="nav-item">' +
             '<a class="nav-link" href="../view/contact.html">Contacts</a>' +
             '</li>' +
+            '<li class="nav-item">' +
+            '<a class="nav-link" href="../view/products.html">Products</a>' +
+            '</li>' +
 
             '<!--dropdown with likely additions for the site-->' +
             '<li class="nav-item dropdown">' +
             '<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">' +
-            'Products/Services' +
+            'Other Services' +
             '</a>' +
             '<div class="dropdown-menu" aria-labelledby="navbarDropdown">' +
-            '<p class="dropdown-item "> These are under construction. </p>' +
+                   
+            '<a class="dropdown-item" href= "../view/newsletter.html">Newsletter</a>' +            
             '<div class="dropdown-divider"></div>' +
-            '<a class="dropdown-item" href= "../view/newsletter.html">Newsletter</a>' +
-            '<a class="dropdown-item" href="../view/products.html">Products</a>' +
             '<a class="dropdown-item" href="../view/services.html">Services Sign-in</a>' +
             '</div>' +
             '</li>' +

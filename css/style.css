@@ -61,6 +61,11 @@ footer {
 
 .imgsize1 {
     width: 95%;
+    
+}
+
+.buffer-height{
+    height: 400px;
 }
 
 .imgsize2 {
@@ -74,6 +79,10 @@ footer {
 .infoCard {
     padding: 3px;
     height: 200px;
+}
+.product{
+    padding: 5px;
+    
 }
 
 
