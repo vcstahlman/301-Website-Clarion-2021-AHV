@@ -1,4 +1,4 @@
-//Victor Stahlman
+//Victor Anna Holly
 //purpose: create a web page that shows your knowledge of client side web coding.
 //this is for the support a project page, and it calculates the time I did for these.
 

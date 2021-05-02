@@ -1,4 +1,4 @@
-//Victor Stahlman cis 270
+//Victor Anna Holly cis 301
 //purpose: create a web page that shows your knowledge of client side web coding.
 
 //this is used for having a constant header/footer for the pages of the site
@@ -65,8 +65,8 @@ function displayfooter() {
             '<div class=" fluid container" id="pagebottom"> <!-- div for styling and responsiveness-->' +
             '<footer>' +
             '<h6 class="text-center">Made by <a href="mailto:vicstahlman@gmail.com">Holly D, Anna J, & Victor S</a></h6>    <!--has an email link after saying it was made by me-->' +
-            '<p class="text-center"> Copyright &copy; 2021</p>   ' + //Copyright &copy;
-            '<p class="text-center">Company saying</p>' +
+            '<p class="text-center"> Copyright H.A.V Inc. &copy; 2021</p>   ' + //Copyright &copy;
+            '<p class="text-center">Providing best computer experiences possible est. 2021  </p>' +
             '</footer>' +
             '</div>'
     } catch (load) {}

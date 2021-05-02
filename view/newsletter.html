@@ -44,14 +44,21 @@
                 <h3>Sign up</h3>
 
                 <input type="email" id="email">
-                <button> Submit email and send newsletter</button>
+                <a href="../images/Newsletter.pdf" download="Newsletter">
+                <button type="button" onclick="thank()"> Submit email and send newsletter</button></a>
                 <!-- display a newsletter.? -->
+                <!-- it is not a true interaction but it does give you a newsletter when you submit ;) -->
 
             </div>
         </div>
     </section>
 
-
+    <script>
+        function thank(){
+            var name = document.getElementById("email").value;
+            alert("Thank you "+ name+ " for submitting your name. the download for the latest newsletter has began.")
+        }
+    </script>
 
 
 

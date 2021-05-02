@@ -1,10 +1,7 @@
-//Victor Stahlman cis 270
+//Victor Anna Holly
 //purpose: create a web page that shows your knowledge of client side web coding.
 
 //this page is for getting the username and password out of the login form and then if they both are correct
-//it will run lognew from Loggedin.js
-
-
 
 
 function checkUser() {

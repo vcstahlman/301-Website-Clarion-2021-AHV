@@ -1,4 +1,6 @@
-/* This is for the style/look of the whole site*/
+/* Victor Anna Holly 301 */
+
+/* This is for the style/look of the whole site */
 
 header,
 nav,
@@ -85,7 +87,10 @@ footer {
     
 }
 
-
+.home-aside{
+    padding: 20px;
+    
+}
 
 
 /* Sets the background color, and the sizing of the border/padding. */
@@ -163,8 +168,14 @@ span h2 {
     border: grey 5px solid;
     padding: 5px;
     font-family: sans-serif;
-    left: auto;
+    
 }
+
+input{
+    margin-bottom: 10px;
+}
+
+.art h5, 
 
 
 /* In the footer I had the float cleared, set a background color,
